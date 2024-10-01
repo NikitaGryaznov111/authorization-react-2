@@ -19,7 +19,7 @@ const AuthProvider = ({ children }) => {
         }
       );
       const res = await response.json();
-      console.log(res);
+      console.log(res.data);
       //как формировать токен на сервере?
       // if (res.data) {
       //   setUser(res.data.user);
